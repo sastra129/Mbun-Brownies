@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Mbun Brownies</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #4E2A1E;
+      color: #F5E6D3;
+    }
+	
+	.avatar{
+      width:300px;
+      height:300px;
+      border-radius:30%;
+      margin:auto;
+      background-size:cover;
+      background-position:50% 20%;
+      border:4px solid var(--accent);
+      box-shadow:0 0 20px rgba(0,212,255,0.4);
+    }
+	  /* ====== Social Buttons ====== */
+    .social{
+      margin-top:25px;
+      display:flex;
+      justify-content:center;
+      gap:14px;
+	   overflow-x:auto;
+  padding-bottom:10px;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 100px 20px 80px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #e6d5c3;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #C4A000;
+      color: #4E2A1E;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 3s;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    /* PRODUK */
+    .products {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 30px;
+    }
+
+    .product-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #F5E6D3;
+      color: #4E2A1E;
+      padding: 20px;
+      border-radius: 16px;
+      width: 220px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* KEUNGGULAN */
+    .features {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      margin-bottom: 25px;
+    }
+
+    .feature-list {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      max-width: 200px;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+	
+	/* TESTIMONI */
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #F5E6D3;
+  color: #4E2A1E;
+  padding: 20px;
+  border-radius: 16px;
+  width: 250px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* ORDER */
+.order {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.order h2 {
+  margin-bottom: 15px;
+}
+
+.order p {
+  margin-bottom: 25px;
+  color: #e6d5c3;
+}
+
+.btn-order {
+  background-color: #C4A000;
+  color: #4E2A1E;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.btn-order:hover {
+  opacity: 0.85;
+}
+
+.contact-info {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #d8c3af;
+}
+
+  </style>
+</head>
+
+<body>
+<!-- AVATAR -->
+ <div class="avatar" style="background-image:url('logo Mbun.jpeg');"></div>
+ 
+<!-- HERO -->
+<section class="hero">
+  <h1>Brownies Homemade </h1>
+  <p>Harga Kaki Lima, Rasa Bintang Lima</p>
+  <a href="https://wa.me/6285717092605" class="btn">Order Sekarang</a>
+</section>
+
+<!-- PRODUK -->
+<section class="products">
+  <h2>Varian Favorit</h2>
+
+  <div class="product-list">
+    <div class="card">Original Brownies</div>
+    <div class="card">Lava Cake 3726 mdpl</div>
+    <div class="card">Cheese Cake Molor 50 m ngk putus2</div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="features">
+  <h2>Kenapa Mbun Brownies?</h2>
+
+  <div class="feature-list">
+    <div class="feature">🍫 Homemade Fresh</div>
+    <div class="feature">⭐ Bahan Premium</div>
+    <div class="feature">🎁 Cocok dikasih untuk BF (Best Friend💔)</div>
+    <div class="feature">🚚 Bisa Delivery</div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section class="testimonials">
+  <h2>Testimoni For Best Clien</h2>
+
+  <div class="testimonial-list">
+
+    <div class="testimonial-card">
+      <p>"Browniesnya browwnies banget, coklatnya nyocaklat banget"</p>
+      <h4>- Bambang</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"Udah order berkali-kali, selalu konsisten rasanya"</p>
+      <h4>- Abdul</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"Packaging rapi, cocok banget buat hadiah yang katanya Sipaling Best Friend 💔"</p>
+      <h4>- Rudi</h4>
+    </div>
+
+  </div>
+</section>
+
+<!-- ORDER / KONTAK -->
+<section class="order">
+  <h2>Siap Nikmatin Brownies Dengan harga kaki lima, Rasa Bintang 5?</h2>
+  <p>Gass Check out. Stok Terbatas</p>
+
+  <a href="https://wa.me/62XXXXXXXXXX?text=Halo%20Mbun%20Brownies,%20saya%20ingin%20order%20browniesnya"
+     class="btn-order">
+     Order via WhatsApp
+  </a>
+
+  <div class="contact-info">
+    <p>Lokasi: BN (Bonang) </p>
+    <p> Buka Sampai kiamat.</p>
+  </div>
+</section>
+</body>
+</html> 	
